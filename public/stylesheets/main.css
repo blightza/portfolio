@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/clouds_milky_way_eclipse_light_68883_1920x1080.jpg);
+    font-size: 20px;
+}
+
+
+#landing-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.txt {
+    font-size 40;
+}
+
+#landing-header h1 {
+  color: #fff;
+}
+
+p {
+    color: red;
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+}
+
+/* Header */
+
+.bg-light {
+    background-color: #909499 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(253, 255, 255, 0.9);
+}
+
+.page-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
