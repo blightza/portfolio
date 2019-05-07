@@ -63,7 +63,7 @@ router.put("/:comment_id", middleware.checkCommentOwnership, function(req, res){
    });
 });
 
-//COMMENT DESTROY ROUTE
+// Deleting of comments
 router.delete("/:comment_id", middleware.checkCommentOwnership, function(req, res){
     Comment.findByIdAndRemove(req.params.comment_id, function(err){
         if(err){
