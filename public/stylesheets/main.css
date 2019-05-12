@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://images.wallpaperscraft.com/image/clouds_milky_way_eclipse_light_68883_1920x1080.jpg);
+    background-image: url(https://images.wallpaperscraft.com/image/light_sky_stars_background_85555_1920x1080.jpg);
     font-size: 20px;
 }
 
@@ -12,15 +12,33 @@ body {
 }
 
 .txt {
-    font-size 40;
+    font-size: 40;
 }
 
 #landing-header h1 {
   color: #fff;
 }
 
+#about {
+    padding-left: 150 !important;
+}
+
+#abouttn {
+    background-color: white;
+}
+
+#h1 {
+    text-align: center;
+}
+
 p {
-    color: red;
+    color: white;
+}
+
+.lead {
+    padding-left: 350;
+    font-size: 40px;
+    color: teal;
 }
 
 #footer {
