@@ -10,7 +10,7 @@
                 <div class="caption-full">
                     <h4><a><%= blog.name %></a></h4>
                     <p id="blog"><%= blog.description %></p>
-                    <p><em>Submitted By</em> <%= blog.author.username %></p>
+                    <p id="blog"><em>Submitted By</em> <%= blog.author.username %></p>
                     <% if(currentUser && blog.author.id.equals(currentUser._id)){ %>
                     <a class="btn btn-warning" href="/blogs/<%= blog._id %>/edit">Edit</a>
                     <form id="delete-form" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
